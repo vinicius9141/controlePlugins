@@ -3,12 +3,13 @@ import { getFirestore } from "firebase/firestore"
 
 // Configuração do Firebase para seu app
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  apiKey: "AIzaSyAehpM3_izn93YGJpdozIZjHtMH0btw8Iw",
+  authDomain: "cerberusdb-2620a.firebaseapp.com",
+  projectId: "cerberusdb-2620a", // ← Este campo é essencial!
+  storageBucket: "cerberusdb-2620a.appspot.com",
+  messagingSenderId: "807962592023",
+  appId: "1:807962592023:web:d7463997e1176361e5ed52",
+  measurementId: "G-QSWZC0V65C"
 }
 
 // Inicializar Firebase
